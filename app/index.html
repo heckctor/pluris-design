@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluris Design</title>
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="manifest" href="manifest.json">
+    <link rel="author" href="humans.txt" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Pluris Design">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Pluris Design">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link fz-27" href="index.html">HOME</a>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link fz-27">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link fz-27">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+    <div class="intro has-text-centered">
+        <h5 class="fw-600 fz-28">WE LOVE OUR JOB</h5>
+        <p class="fz-23">PLURISDESIGN IS A BRAND NEW CREATIVE AGENCY NEAR PARIS PASSIONATE ABOUT DESIGN AND GRAPHIC ARTS</p>
+        <p class="fz-19">MIXING BOTH CLASSIC AND TRENDING STYLES</p>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/logo.svg" class="logo">
+          </div>
+          <div class="col-md-6">
+            <div class="graphic-about">
+                <img src="images/graphic.png" class="graphic">
+            </div>
+          </div>
+        </div>
+        <a href="#the-content"><img src="images/arrow-down.svg" class="to-content"></a>
+      </div>
+    </div>
+
+    <div id="the-content" class="container the-content">
+
+      <div class="row services">
+        <div class="col-md-7 service">
+          <h4>Crafted mostly</h4>
+          <h3 class="fw-400">Web Development</h3>
+          <h4>responsive</h4>
+          <h4>user centered</h4>
+          <h4>unique design</h4>
+        </div>
+        <div class="col-md-5 service">
+          <h4>Defnitevely Crafted</h4>
+          <h3 class="fw-400">Branding</h3>
+          <h4>Distinctiveness</h4>
+          <h4>Consistency</h4>
+          <h4>Passion</h4>
+        </div>
+      </div>
+
+      <div class="divider is-size-6"></div>
+
+      <div class="row services">
+        <div class="col-md-7 service">
+          <h4>Partially Crafted</h4>
+          <h3 class="fw-400">UI UX</h3>
+          <h4>Communicative</h4>
+          <h4>Creative</h4>
+          <h4>Beautifull Typographie Work</h4>
+        </div>
+        <div class="col-md-5 service">
+          <h4>Beautifully Crafted</h4>
+          <h3 class="fw-400">Ilustration</h3>
+          <h4>Open Technique</h4>
+          <h4>Original</h4>
+          <h4>Inspiring</h4>
+        </div>
+      </div>
+
+      <div class="divider is-size-6"></div>
+      
+      <div class="row services">
+        <div class="col-md-12 service">
+          <h4>Of course Crafted</h4>
+          <h3 class="fw-400">Graphic design</h3>
+          <h4>In Context</h4>
+          <h4>Desirable</h4>
+          <h4>Evokes Feelings</h4>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <footer class="footer fz-23 fw-400">
+        <div class="container">
+            PLURISDESIGN 2018 @ ALL RIGHTS RESERVED
+        </div>
+    </footer>
+    
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <script>
+    document
+        .querySelectorAll('a[href^="#"]')
+        .forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document
+                    .querySelector(this.getAttribute('href'))
+                    .scrollIntoView({behavior: 'smooth'});
+            });
+        });
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXX-X', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- Built with love using Pluris Design -->
+  </body>
+</html>
